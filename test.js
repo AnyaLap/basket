@@ -9,10 +9,9 @@ console.log(numbers);
 let newNumbers =[];
 //Удаляем все отрицательные числа из массива
 for(let i = 0; i < numbers.length; i ++){
-    if(numbers[i] < 0){
-    continue;
+    if(numbers[i] >= 0){
+       newNumbers.push(numbers[i]);
     }
-    newNumbers.push(numbers[i]);
 }
 numbers = newNumbers;
 console.log(numbers);
