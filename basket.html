@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/basket.css">
+</head>
+<body>
+    <main>
+        <section class="basket">
+            <h1>Корзина</h1>
+            <div class="product">
+                <div class="product__card card">
+                    <img class="card__img" src="./assets/images/dress.webp" alt="Платье">
+                    <div class="card__info">
+                        <p class="text_bold">Платье Vestiri</p>
+                        <p>Цвет: черный</p>
+                        <p>Размер: М</p>
+                        <p>Количество: 1</p>
+                    </div>
+                </div>
+                <div class="product__sum sum">
+                    <div class="text"><p id="sumInfo1" class="sum__info">13890</p><p>₽</p></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__card card">
+                    <img class="card__img" src="./assets/images/jacket.webp" alt="Жакет">
+                    <div class="card__info">
+                        <p class="text_bold">Жакет Moxow </p>
+                        <p>Цвет: белый</p>
+                        <p>Размер: L</p>
+                        <p>Количество: 1</p>
+                    </div>
+                </div>
+                <div class="product__sum sum">
+                    <div class="text"><p id="sumInfo2" class="sum__info">12900</p><p>₽</p></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__card card">
+                    <img class="card__img" src="./assets/images/shoes.webp" alt="Туфли">
+                    <div class="card__info">
+                        <p class="text_bold">Туфли Basсoni </p>
+                        <p>Цвет: черный</p>
+                        <p>Размер: 40</p>
+                        <p>Количество: 1</p>
+                    </div>
+                </div>
+                <div class="product__sum sum">
+                    <div class="text"><p id="sumInfo3" class="sum__info">12990</p><p>₽</p></div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__card card">
+                    <img class="card__img" src="./assets/images/bag.webp" alt="Клатч">
+                    <div class="card__info">
+                        <p class="text_bold">Клатч Pinko </p>
+                        <p>Цвет: черный</p>
+                        <p>Размер: S</p>
+                        <p>Количество: 1</p>
+                    </div>
+                </div>
+                <div class="product__sum sum">
+                    <div class="text"><p id="sumInfo4" class="sum__info">20900</p><p>₽</p></div>
+                </div>
+            </div>
+            <div class="product product_border">
+                <div class="product__card card">
+                    <button id="addDiscount" class="button-primary">Использовать купон на 20%</button>
+                </div>
+                <div class="product__sum sum">
+                    <p>Итого:</p>
+                    <p id="totalSumInfo"></p>
+                </div>
+            </div>
+           
+        </section>
+
+
+    </main>
+    <script src="./basket.js"></script>
+</body>
+</html>
